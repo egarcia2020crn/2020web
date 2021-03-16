@@ -27,6 +27,9 @@ div.titulo1{
   font-family: 'Digital-7';
 }
 
+h4{
+  font-family: 'digital-7';
+}
 div.titulo2{
   width: 1298px;
   height: 50px;
@@ -62,7 +65,9 @@ div.titulo3{
   width: 250px;
   border-radius: 50%;
   background-color: black;
-
+}
+ul{
+  margin: auto;
 }
 
 h2,h3{
