@@ -1,0 +1,152 @@
+@media screen and (max-width:2000px)
+{
+body{
+  background: grey;
+  font-family: helvetica;
+  color:white;
+}
+
+.cabezal{
+  height: 50px;
+  width: auto;
+  background-color: black;
+}
+
+ul{
+ float: left;
+ text-decoration: none;
+}
+
+li{
+  color: white;
+  margin-left:10px;
+  display: inline-block;
+}
+
+.red{
+  float: right;
+  color: white;
+  margin-right:35px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.logo{
+  height: 50px;
+  float: left;
+  border-radius: 0px;
+}
+
+.Titulo{
+  height: 50px;
+  background: black;
+  clear: both;
+}
+
+img{
+  border-radius: 8px;
+}
+
+img:hover{
+  opacity: 50%;
+}
+
+b{
+  float: left;
+  margin: 15px;
+  width: auto;
+}
+h1{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{
+  font-size: 15px;
+}
+
+h3{
+  font-size: 15px;
+  text-align: left;
+  float: left;
+}
+
+h4{
+font-size: 15px;
+text-align: right;
+float: right;
+}
+
+#Vistos{
+  filter: grayscale(100%);
+}
+}
+
+
+@media screen and (max-width:640px)
+{
+  .cabezal{
+    height: 3,125rem;
+    width: auto;
+    background-color: black;
+  }
+
+  li{
+    color: white;
+    margin-left:0,625rem;
+    display: inline-block;
+  }
+
+  .red{
+    float: right;
+    color: white;
+    margin-right:2,1875rem;
+    margin-top: 0,9375rem;
+    display: inline-block;
+  }
+
+  .logo{
+    height: 3,125rem;
+    float: left;
+    border-radius: 0rem;
+  }
+
+  .Titulo{
+    height: 3,125rem;
+    background: black;
+    clear: both;
+  }
+
+  img{
+    border-radius: 0,5rem;
+  }
+
+  b{
+    float: left;
+    margin: 0,9375rem;
+    width: auto;
+  }
+  h1{
+    color: white;
+    font-size: 2,5rem;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 0,9375rem;
+  }
+
+  h3{
+    font-size: 0,9375rem;
+    text-align: left;
+    float: left;
+  }
+
+  h4{
+  font-size: 0,9375rem;
+  text-align: right;
+  float: right;
+  }
+
+}

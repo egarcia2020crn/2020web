@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+div {
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+li{
+  display: inline-block;
+  background-color: orange;
+  height: 30px;
+  margin: 0px;
+  padding: 5px;
+  line-height: 30px;
+
+}
+
+li:hover{
+  background-color: yellowgreen;
+  opacity: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: cyan;
+}
+
+
+h1, p {width: 350px;  padding:25px;  }
+
+h1 {
+  margin: 0;
+  ;}
+
+p{
+  padding: 0 25px;
+  margin: 0px;
+}
+
+b{
+  color: white;
+  background-color: black;
+  height: 20px;
+  width: 200px;
+}
+
+
+#primera {height: 40px;}
+
+#segunda {
+  height: 550px;
+  background-image:url(img/img-hero-full-list.png);
+
+}
+#tercera {
+  height: 641px;
+  background-image: url(img/allinone.jpg);
+}
+#cuarta {
+  height: 500px;
+  background-image: url(img/curator-short.png);
+}
+#quinta {
+  height: 550px;
+  background-image:url(img/img-hero-full-list.png);
+}
+#sexta {
+  height: 550px;
+  background-image:url(img/mobile-share.png);
+}
+#septima {
+  height: 643px;
+  background-image:url(img/anywhere.png);
+}
+#octava {
+  height: 200px;
+  text-align: center;
+}
+
+#boto {
+
+  /*DIMENSIONES DEL OBJETO*/
+  height: 70px;
+  width: 70px;
+  
+  /*POSICIONAMIENTO DEL OBJETO*/
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+
+  /*TEXTO*/
+  text-align: center;
+  line-height: 90px;
+  font-size: 62px;
+  color: white;
+
+  /*CAJA*/
+  border: solid 2px black;
+  border-radius: 35px;
+  box-shadow: 2px 2px 5px black;
+  background-image: url(img/sources.png);
+  background-position: -220px -6px;
+  opacity:0.9;
+
+
+}
+
+DESENFOQUE GAUSIANO
+
+img{
+  padding-top: 25px;
+
+}
+
+
+
+.blanco {background-color: #FFF;}
+.verde {background-color: #6C3;}
+.oscuro {background-color: #333;}
+.clara {background-color: #EEECEE;}
+____________________
+
+Propiedades de medida de un elemento
+
+width (anchura)
+height (altura)
+
+
+padding margen inferior
+border bordes
+margin margen de seguridad exterior
+
+width 50px
+height 20px
+
+mida total 50 x 20
+
+padding 10px
+border 3px
+margin 20px
+
+dimensiones reals?
+20 3 10 50 10 3 20_anchura
+20 3 10 20 10 3 20_altura
+116x86
+
+
+padding:
+padding-top:5x
+padding-right:7x
+padding-bottom:9x
+padding-left:3x
+
+margin:
+margin-top:
+margin-right:
+margin-bottom:
+margin-left:
+
+border:
+border-top: 5px
+border-right: 7px
+border-bottom: 9px
+border-left: 3px
+
+
+border: 5px 7px 9px 3px;
+
+border: 0 10px;
+
+
+display:
+
+  inline (En linea)
+
+  block (En bloque)
